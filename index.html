@@ -4,11 +4,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Data Analytics Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
-    <h1>I'M A HACKER!</h1>
+    <header>
+        <nav>
+            <h1>My Portfolio</h1>
+            <ul>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <h2>Welcome to My Data Analytics Portfolio</h2>
+            <p>Explore my projects in Google Sheets, Tableau, and Power BI.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </header>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-img" style="background-image: url('images/google-sheets.jpg');"></div>
+                <div class="project-info">
+                    <h3>Google Sheets Dashboard</h3>
+                    <p>Visualize data with interactive charts and summaries.</p>
+                    <a href="#" target="_blank" class="btn">View Project</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img" style="background-image: url('images/tableau.jpg');"></div>
+                <div class="project-info">
+                    <h3>Tableau Dashboard</h3>
+                    <p>Analyze sales trends with dynamic visualizations.</p>
+                    <a href="#" target="_blank" class="btn">View Project</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img" style="background-image: url('images/powerbi.jpg');"></div>
+                <div class="project-info">
+                    <h3>Power BI Dashboard</h3>
+                    <p>Unlock insights from customer data using Power BI.</p>
+                    <a href="#" target="_blank" class="btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I’m a data analyst with experience in visualizing and interpreting complex data sets using Google Sheets,
+            Tableau, and Power BI. I’m passionate about turning data into actionable insights to help businesses make
+            informed decisions.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch, feel free to reach out via LinkedIn or check out my GitHub for more projects.
+        </p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 My Name | <a href="https://www.linkedin.com/in/bonnie-sandgren-214509134/"
+                target="_blank">LinkedIn</a> | <a href="https://github.com/BonnieSandgren" target="_blank">GitHub</a>
+        </p>
+    </footer>
+
+    <script src="scripts.js"></script>
 </body>
 
 </html>
