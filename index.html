@@ -4,84 +4,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Data Analytics Portfolio</title>
+    <title>Data Analytics Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
     <header>
+        <h1>My Data Analytics Portfolio</h1>
         <nav>
-            <h1>My Portfolio</h1>
             <ul>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <div class="header-content">
-            <h2>Welcome to My Data Analytics Portfolio</h2>
-            <p>Explore my projects in Google Sheets, Tableau, and Power BI.</p>
-            <a href="#projects" class="btn">View My Work</a>
-        </div>
     </header>
+
+    <section id="hero">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Explore my data analytics projects using tools like Google Sheets, Tableau, and Power BI.</p>
+    </section>
 
     <section id="projects">
         <h2>Projects</h2>
-        <div class="project-grid">
-            <div class="project-card">
-                <div class="project-img" style="background-image: url('images/google-sheets.jpg');"></div>
-                <div class="project-info">
-                    <h3>Google Sheets Dashboard</h3>
-                    <p>Visualize data with interactive charts and summaries.</p>
-                    <a href="#" target="_blank" class="btn">View Project</a>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <div class="project-img" style="background-image: url('images/tableau.jpg');"></div>
-                <div class="project-info">
-                    <h3>Tableau Dashboard</h3>
-                    <p>Analyze sales trends with dynamic visualizations.</p>
-                    <a href="#" target="_blank" class="btn">View Project</a>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <div class="project-img" style="background-image: url('images/powerbi.jpg');"></div>
-                <div class="project-info">
-                    <h3>Power BI Dashboard</h3>
-                    <p>Unlock insights from customer data using Power BI.</p>
-                    <a href="#" target="_blank" class="btn">View Project</a>
-                </div>
-            </div>
+        <div class="project">
+            <h3>Google Sheets Dashboard</h3>
+            <p>A dashboard created using Google Sheets to analyze sales data.</p>
+            <a href="#">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Tableau Dashboard</h3>
+            <p>An interactive Tableau dashboard showcasing customer demographics.</p>
+            <a href="#">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Power BI Dashboard</h3>
+            <p>A Power BI dashboard for visualizing financial performance over time.</p>
+            <a href="#">View Project</a>
         </div>
     </section>
 
     <section id="about">
         <h2>About Me</h2>
-        <p>I’m a data analyst with experience in visualizing and interpreting complex data sets using Google Sheets,
-            Tableau, and Power BI. I’m passionate about turning data into actionable insights to help businesses make
-            informed decisions.</p>
+        <p>I am a passionate data analyst with a keen eye for detail and a love for transforming data into actionable
+            insights.</p>
     </section>
 
     <section id="contact">
         <h2>Contact</h2>
-        <p>If you'd like to get in touch, feel free to reach out via LinkedIn or check out my GitHub for more projects.
-        </p>
-        <div class="social-icons">
-            <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
-        </div>
+        <p>If you'd like to collaborate or learn more about my work, feel free to reach out!</p>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
     </section>
 
     <footer>
-        <p>© 2024 My Name | <a href="https://www.linkedin.com/in/bonnie-sandgren-214509134/"
-                target="_blank">LinkedIn</a> | <a href="https://github.com/BonnieSandgren" target="_blank">GitHub</a>
-        </p>
+        <p>&copy; 2024 My Data Analytics Portfolio</p>
     </footer>
 
-    <script src="scripts.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
